@@ -20,9 +20,7 @@ def lerNumeros():
     enc: str = ''
     linha: str = ''
     arquivo: str = ''
-
     
-
     if(os.path.exists(dir) and os.path.isdir(dir)):
         tipo = 'r'
         arquivo = dir + arq
